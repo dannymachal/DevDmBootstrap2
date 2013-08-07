@@ -23,7 +23,7 @@
         <?php endwhile; ?>
         <?php else: ?>
 
-            <p>Sorry, this page does not exist</p>
+            <?php get_404_template(); ?>
 
         <?php endif; ?>
 
